@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Gotera Post
+        </title>
+        <link rel="stylesheet" type="text/css" href="/Assets/Style/GoteraPost.css">
+    </head>
+    <body>
+        <div class="header">
+            <div>
+                <img class="logo" src="/Assets/Image/2.png">
+            </div>
+            <div class="got">
+                Gotera
+            </div>
+        </div><br><br>
+        <section>
+                <h1>Add product</h1>
+                <div class="divbig">
+                    <div class="div1">
+                        <label for="cat">Categories</label><br>
+                        <select for="cat">
+                            <option value="Vegetable">Vegetable/አታክልት</option>
+                            <option value="Fruits">Fruits/ፍራፍሬ</option>
+                            <option value="Meat">Meat/ስጋ</option>
+                            <option value="Fish">Fish/አሳ</option>
+                            <option value="Seeds">Seeds/ጥራጥሬ</option>
+                            <option value="Dairy">Dairy/የወተት ትዋዕጾ</option>
+                            <option value="Honey">Honey/ማር</option>
+                            <option value="Alcohol">Alcohol/አልኮሆል</option>
+                            <option value="Grocery">Grocery/ባልትና/አስቤዛ</option>
+                        </select><br>
+                        <label for="iname">Item name</label><br>
+                        <input type="text" id="iname"><br>
+                        <label for="other">Other</label><br>
+                        <input type="text" id="other"><br><br>
+                        <label for="price">Price</label><br>
+                        <div id="price" class="divbig">
+                            <div name="price" class="div2">
+                                <label for="uprice">Unit Price</label><br>
+                                <p><input type="number" id="uprice" style="width: 100px;"> Birr</p>
+                            </div>
+                            <div name="price" class="div2">
+                                <label for="bprice">Bulk Price</label><br>
+                                <p>> <input type="number" style="width:100px;"><br></p>
+                                <p><input type="number" style="width: 100px;"> Birr</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="div1">
+                        <label for="pic">Picture</label><br>
+                        <img src="/Assets/Image/360_F_481134373_0W4kg2yKeBRHNEklk4F9UXtGHdub3tYk.jpg" width="150px" height="150px"><br>
+                        <input type="file" id="pic"><br>
+                        <label for="amt">Amount</label><br>
+                        <input type="number" id="amt"><br>
+                        <input type="radio" id="weight" name="amt">
+                        <label for="weight">Weight</label><br>
+                        <input type="radio" id="number" name="amt">
+                        <label for="number">Number</label><br>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="buttons">
+                    <button id="Post">Store</button>
+                    <button id="cancel">cancel</button>
+                </div>
+            </section>
+    </body>
+</html>
